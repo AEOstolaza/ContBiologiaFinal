@@ -1,0 +1,27 @@
+#secciónPie{
+    width: 250px;
+    margin: 15px;
+    padding: 50px;
+    border: 3px solid darkorange;
+    font-size: 50px;
+    font-weight: bold;
+    }
+.animación{
+    width: 250px;
+    height: 250px;
+    background-color: #4c7039;
+    color: #ffffff;
+    animation-name: cambiarPie;
+    animation-duration: 20s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 5;
+}
+@keyframes cambiarPie {
+    0% {background-color: #4c7039;}
+    20%{background-color: #377018;}
+    40%{background-color: #5cbd28;}
+    60%{background-color: #75f032;}
+    80%{background-color: #a5f27c}
+    100%{background-color: #ffffff}
+}

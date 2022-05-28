@@ -1,0 +1,95 @@
+*{
+    margin: 10;
+    padding: 10;
+    background-color: #a5f27c;
+}
+body{
+    margin: 15px;
+    font-family: inherit, 'Courier New', Courier;
+}
+h1{
+    color: #4c7039;
+    background-color: #75f032;
+    font-size: 80px;
+    font-family: ContBiología;
+}
+h2{
+    color: #4c7039;
+    background-color: #75f032;
+    font-family: inherit;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 200;
+}
+h3{ color:#4c7039;
+    background-color: #75f032;
+    font-family: inherit;
+    text-align: left;
+}
+h4{color:#4c7039;
+    background-color: #75f032;
+    font-family: inherit;
+    text-align: left;
+    font-size: 20px;
+}
+h5{color:#4c7039;
+    background-color: #75f032;
+    font-family: inherit;
+    text-align: left;
+}
+h6{color:#4c7039;
+    background-color: #75f032;
+    font-family: inherit;
+    text-align: left;
+}
+@font-face {
+    font-family: ContBiología;
+    src: url(../assets/Fuentes/ContBiology.ttf);
+}
+p{
+    border-radius: 20px;
+    padding: auto;
+    margin: 15px;
+}
+.explicativo{
+    margin: 5px;
+    padding: 10px;
+    background-color:greenyellow;
+    overflow: auto;
+}
+.introducción{
+    border-style: double;
+    padding: 5px;
+    align-content: center;
+}
+.cajasección{
+    border-style: double;
+    padding: 5px;
+    align-content: center;
+}
+.cajasección div p{
+    font-size: 15px;
+}
+a{
+    font-size: 15px;
+}
+a:hover{
+    color: #377018;
+    font-size: 15px;
+}
+a:active{
+    color: #5cbd28;
+    font-size: 15px;
+}
+a:visited{
+    color:#794c09;
+    font-size: 15px;
+}
+footer, footer .pie{
+    align-items: center;
+    text-align: center;
+}
+#parrafoPie{
+    font-size: 40px;
+    font-weight: bold;
+}
